@@ -2,12 +2,12 @@
 //  ringoTATemplateTests.swift
 //  ringoTATemplateTests
 //
-//  Created by Gautam Mittal on 7/9/15.
-//  Copyright (c) 2015 Ringo. All rights reserved.
+//  Created by Gautam Mittal on 10/16/15.
+//  Copyright © 2015 Ringo. All rights reserved.
 //
 
-import UIKit
 import XCTest
+@testable import ringoTATemplate
 
 class ringoTATemplateTests: XCTestCase {
     
@@ -23,12 +23,12 @@ class ringoTATemplateTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }
